@@ -3,5 +3,6 @@ library(dplyr)
 library(rlang)
 library(ggplot2)
 
-ins_data <- myPack::insurance
+data(insurance, package = "myPack")
+
 enableBookmarking()
